@@ -1,0 +1,177 @@
+body,html{
+	margin: 0;
+	height: 100%;
+    font-family: "Segoe UI",Arial,sans-serif;
+	background-color: #E6ECF0;
+}
+.hover:hover{
+	transition: .1s;
+	background-color: #F5F8FA;
+}
+.hover2:hover div{
+	background-color: red;	transition: .1s;
+	background-color: #E8F5FE;
+}
+.hover3:hover{
+	background-color: #DFEFFA;
+}
+.yuvarlak{
+	border-bottom-left-radius: 9999px;
+	border-bottom-right-radius: 9999px;
+	border-top-right-radius: 9999px;
+	border-top-left-radius: 9999px;
+}
+button{
+	outline: none;
+}
+.ana{
+	width: 100%;
+}
+
+.alt{
+	width: 980px;
+	margin: auto;
+	margin-top: 68px;
+	display: flex;
+	padding: 0 10px 0 10px;
+}
+
+.alt_sol{
+	width: 360px;
+	margin-right: 20px;
+}
+.ayarlar_alt_sol1{
+	padding: 0 10px 0 10px;
+	height: 53px;
+	background-color: #fff;
+}
+.ayarlar_alt_sol1 h2{
+	margin: 0;
+	padding: 0;
+	font-size: 19px;
+	padding-top: 13px;
+}
+.ayarlar_alt_sol2{
+	padding: 20px 10px 10px 10px;
+}
+.ayarlar_alt_sol2 h3{
+	margin: 0;
+	padding: 0;
+	font-size: 19px;
+	color: rgb(101, 119, 134);
+}
+.ayarlar_alt_sol3{
+	width: 338px;
+	padding: 15px 10px 15px 10px;
+	border-right: 2px solid #1c94e0;
+	background-color: #F5F8FA;
+	cursor: pointer;
+	display: flex;
+    border-bottom: 1px solid #e6ecf0;
+}
+.ayarlar_alt_sol3_span{
+	width: 320px;
+	display: flex;
+}
+.ayarlar_alt_sol3 span{
+	font-size: 15px;
+    color: rgb(101, 119, 134);
+}
+.ayarlar_alt_sol3 i{
+	padding-top: 4px;
+    color: rgb(101, 119, 134);
+    font-size: 15px;
+}
+.ayarlar_alt_sol4{
+	padding: 15px 10px 15px 10px;
+	background-color: #fff;
+	cursor: pointer;
+	display: flex;
+    border-bottom: 1px solid #e6ecf0;
+}
+.ayarlar_alt_sol4_span{
+	width: 320px;
+	display: flex;
+}
+.ayarlar_alt_sol4 span{
+	font-size: 15px;
+    color: rgb(101, 119, 134);
+}
+.ayarlar_alt_sol4 i{
+	padding-top: 4px;
+    color: rgb(101, 119, 134);
+    font-size: 15px;
+}
+.alt_sag{
+	width: 600px;
+}
+.alt_sag>a{
+	text-decoration: none;
+}
+.ayarlar_alt_sag1{
+	padding: 15px 10px 15px 10px;
+	background-color: #fff;
+	display: flex;
+	cursor: pointer;
+    border-bottom: 1px solid #e6ecf0;
+}
+.ayarlar_alt_sag11{
+	width: 560px;
+}
+.ayarlar_alt_sag11>div{
+	display: flex;
+}
+.ayarlar_alt_sag111 span{
+	font-size: 15px;
+    color: rgb(20, 23, 26);
+}
+.ayarlar_alt_sag112 span{
+	font-size: 13px;
+	color: rgb(101, 119, 134);
+}
+.ayarlar_alt_sag1 i{
+	padding-top: 10px;
+    color: rgb(101, 119, 134);
+
+}
+.ayarlar_alt_sag4{
+	padding: 15px 10px 15px 10px;
+	background-color: #fff;
+	cursor: pointer;
+	display: flex;
+    border-bottom: 1px solid #e6ecf0;
+}
+.ayarlar_alt_sag4_span{
+	width: 560px;
+	display: flex;
+}
+.ayarlar_alt_sag4 span{
+	font-size: 15px;
+    color: rgb(101, 119, 134);
+}
+.ayarlar_alt_sag4 i{
+	padding-top: 4px;
+    color: rgb(101, 119, 134);
+    font-size: 15px;
+}
+.ayarlar_alt_sag5{
+	padding: 15px 10px 15px 10px;
+	background-color: #fff;
+	cursor: pointer;
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+.ayarlar_alt_sag5_span{
+	width: 560px;
+	display: flex;
+}
+.ayarlar_alt_sag5 span{
+	font-size: 15px;
+    color: rgb(101, 119, 134);
+}
+.ayarlar_alt_sag5 i{
+	padding-top: 4px;
+    color: rgb(101, 119, 134);
+    font-size: 15px;
+}

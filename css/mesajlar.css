@@ -1,0 +1,121 @@
+body,html{
+	margin: 0;
+	height: 100%;
+    font-family: "Segoe UI",Arial,sans-serif;
+	background-color: #E6ECF0;
+}
+.hover:hover{
+		background-color: red;	transition: .1s;
+	background-color: #F5F8FA;
+}
+.hover2:hover div{
+	background-color: red;	transition: .1s;
+	background-color: #E8F5FE;
+}
+.yuvarlak{
+	border-bottom-left-radius: 9999px;
+	border-bottom-right-radius: 9999px;
+	border-top-right-radius: 9999px;
+	border-top-left-radius: 9999px;
+}
+button{
+	outline: none;
+}
+.mesajlar {
+	width: 90px;
+	height: 41px;
+	background-color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #1c94e0;
+}
+.mesajlar_ic{
+	width: 42px;
+    margin: auto;
+}
+.mesajlar_ic i{
+	font-size: 26px;
+	color: #1DA1F2;
+	padding: 8px 8px 8px 8px;
+}
+.ana{
+	width: 100%;
+	height: 100%;
+}
+
+.alt{
+	width: 1000px;
+	height: 87%; 
+	margin: auto;
+	margin-top: 68px;
+	margin-bottom: 15px;
+	display: flex;
+}
+
+.alt_sol{
+	width: 360px;
+	margin-right: 20px;
+	margin-left:10px;
+	background-color: #fff;
+}
+.mesajlar_sol_ust{
+	border-bottom: 1px solid #989898;
+}
+.mesajlar_sol_ust h2{
+	margin: 0;
+	font-size: 19px;
+    padding: 10px 10px 10px 10px ;
+}
+.mesajlar_sol_alt{
+	background-color: #fff;
+}
+.mesajlar_sol_alt_ic{
+	padding: 39px 20px 39px 20px;
+}
+.mgal{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.mgal span{
+	font-size: 19px;
+	font-weight: bold;
+	margin: auto;
+}
+.mgal_alt1{
+	text-align: center;
+}
+.mgal_alt1 span{
+	    font-size: 15px;
+	        color: rgb(101, 119, 134);
+
+}
+.mgal_buton{
+	text-align: center;
+	margin-top: 30px;
+}
+.mgal_buton1{
+	border-radius: 100px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 6px 16px;
+    text-align: center;
+     background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: #fff;
+    outline: 0;
+}
+.mgal_buton1:hover{
+	background-color: #006dbf;
+    border-color: #006dbf;
+    color: #fff;
+}
+.alt_sag{
+	width: 600px;
+	background-color: #fff;
+	margin-right:10px;
+}
+.mesajlar_sag_alt{
+	margin-top: 35%;
+}

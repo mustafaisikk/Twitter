@@ -1,0 +1,202 @@
+body,html{
+	margin: 0;
+	height: 100%;
+    font-family: "Segoe UI",Arial,sans-serif;
+	background-color: #E6ECF0;
+}
+.hover:hover{
+	background-color: red;	transition: .1s;
+	background-color: #F5F8FA;
+}
+.hover2:hover div{
+	background-color: red;	transition: .1s;
+	background-color: #E8F5FE;
+}
+.hover3:hover{
+	background-color: #DFEFFA;
+}
+.yuvarlak{
+	border-bottom-left-radius: 9999px;
+	border-bottom-right-radius: 9999px;
+	border-top-right-radius: 9999px;
+	border-top-left-radius: 9999px;
+}
+button{
+	outline: none;
+}
+.ana{
+	width: 100%;
+}
+
+.alt{
+	width: 980px;
+	margin: auto;
+	margin-top: 68px;
+	display: flex;
+	padding: 0 10px 0 10px;
+}
+
+.alt_sol{
+	width: 360px;
+	margin-right: 20px;
+}
+.ayarlar_alt_sol1{
+	padding: 0 10px 0 10px;
+	height: 53px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	background-color: #fff;
+}
+.ayarlar_alt_sol1_i{
+	width: 37px;
+	height: 37px;
+	margin-top: 8px;
+}
+.ayarlar_alt_sol1_i i{
+	font-size: 22px;
+	padding: 7.5px 9px;
+	color: rgba(29,161,242,1.00);
+}
+.ayarlar_alt_sol1 h2{
+	margin: 0;
+	padding: 0;
+	font-size: 19px;
+	padding-top: 13px;
+	margin-left: 15px;
+}
+.ayarlar_alt_sol2{
+	padding: 20px 10px 10px 10px;
+}
+.ayarlar_alt_sol2 h3{
+	margin: 0;
+	padding: 0;
+	font-size: 19px;
+	color: rgb(101, 119, 134);
+}
+.ayarlar_alt_sol3{
+	width: 338px;
+	padding: 15px 10px 15px 10px;
+	border-right: 2px solid #1c94e0;
+	background-color: #F5F8FA;
+	cursor: pointer;
+	display: flex;
+    border-bottom: 1px solid #e6ecf0;
+}
+.ayarlar_alt_sol3_span{
+	width: 320px;
+	display: flex;
+}
+.ayarlar_alt_sol3 span{
+	font-size: 15px;
+    color: rgb(101, 119, 134);
+}
+.ayarlar_alt_sol3 i{
+	padding-top: 4px;
+    color: rgb(101, 119, 134);
+    font-size: 15px;
+}
+.ayarlar_alt_sol4{
+	padding: 15px 10px 15px 10px;
+	background-color: #fff;
+	cursor: pointer;
+	display: flex;
+    border-bottom: 1px solid #e6ecf0;
+}
+.ayarlar_alt_sol4_span{
+	width: 320px;
+	display: flex;
+}
+.ayarlar_alt_sol4 span{
+	font-size: 15px;
+    color: rgb(101, 119, 134);
+}
+.ayarlar_alt_sol4 i{
+	padding-top: 4px;
+    color: rgb(101, 119, 134);
+    font-size: 15px;
+}
+.alt_sag{
+	width: 600px;
+}
+.ayarlar_alt_sag1{
+	padding: 0 10px 0 10px;
+	height: 53px;
+	background-color: #fff;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	display: flex;
+}
+.ayarlar_alt_sag1_i{
+	width: 37px;
+	height: 37px;
+	margin-top: 8px;
+}
+.ayarlar_alt_sag1_i i{
+	font-size: 22px;
+	padding: 7.5px 9px;
+	color: rgba(29,161,242,1.00);
+}
+.ayarlar_alt_sag1 h2{
+	margin: 0;
+	padding: 0;
+	font-size: 19px;
+	padding-top: 13px;
+	margin-left: 15px;
+}
+.ayarlar_alt_sag_2{
+	background-color: #fff;
+	padding: 10px;
+}.ayarlar_alt_sag_11 span{
+	font-size: 15px;
+	color: #657786;
+}
+.ayarlar_alt_sag3{
+		background-color: #fff;
+	padding: 10px;
+}
+.ayarlar_alt_sag31{
+	background-color: #F5F8FA;
+	border-bottom: 2px solid #1c94e0;
+}
+.ayarlar_alt_sag311{
+	padding: 5px 10px 0;
+}
+.ayarlar_alt_sag311 span{
+	font-size: 15px;
+	color: #657786;	
+}
+.ayarlar_alt_sag312{
+	padding: 2px 10px 5px;
+}
+.ayarlar_alt_sag312 input{
+	width: 560px;
+	height: 26px;
+	font-size: 19px;
+	border: none;
+	background-color: #F5F8FA;
+}
+.ayarlar_alt_sag312 input:focus{
+	outline: 0;
+}
+.ayarlar_alt_sag3_buton1{
+	float: right;
+	background-color: #fff;
+}
+.ayarlar_alt_sag3_buton1 input{
+	margin: 0 10px;
+	padding: 0 15px;
+	background-color: #1DA1F2;
+	border: none;
+	border-radius: 100px;
+	height: 39px;
+	outline: 0;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+}
+.ayarlar_alt_sag3_buton1 input:hover{
+	background-color: #1A91DA;
+}
+.sonuc{
+	font-size: 15px;
+	color: #657786;
+}

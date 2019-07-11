@@ -1,0 +1,96 @@
+body,html{
+	margin: 0;
+	height: 100%;
+	background-color: #B2B2B2;
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+button{
+	outline: none;
+}
+.ana{
+	width: 100%;
+}
+
+.ic{
+	width: 600px;
+	background-color: #fff;
+	margin: auto;
+	margin-bottom: 100px;
+}
+.ic_ust{
+	width: 100%;
+	display: flex;
+
+}
+.ic_alt{
+	width: 522px;
+	margin: auto;
+}
+.h2{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	width: 500px;
+}
+.h2 h2{
+	margin: 0;
+	padding: 0;
+	font-size: 19px;
+}
+.buton{
+    width: 100px;
+    height: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin:auto;
+}
+.buton input{
+	width: 100%;
+	height: 100%;
+	border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: #fff;
+    outline: 0;
+}
+.h1{
+	width: 100%;
+	background-color: #fff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.h1 h1{
+	margin: 0;
+	padding:0;
+	font-size: 23px;
+}
+.input{
+	margin-top: 40px;
+	width: 100%;
+	height: 58px;
+	border-bottom: 2px solid rgb(101, 119, 134);
+
+}
+.input input{
+	margin: 0;
+	padding:0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	background-color: #F5F8FA;
+	font-size: 20px; 
+		padding-left: 10px;
+	padding-right: 5px;
+}
+.eposta{
+	width: 100%;
+	display: flex;
+}
+.eposta a{
+	text-decoration: none;
+	font-size: 19px;
+	color:#45A8E5;
+}

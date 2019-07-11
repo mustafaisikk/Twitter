@@ -1,0 +1,126 @@
+body,html{
+	margin: 0;
+	height: 100%;
+	font-family: "Segoe UI",Arial,sans-serif;
+	background-color: #E6ECF0;
+}
+.hover:hover{
+		background-color: red;	transition: .1s;
+	background-color: #F5F8FA;
+}
+.hover2:hover div{
+	background-color: red;	transition: .1s;
+	background-color: #E8F5FE;
+}
+.yuvarlak{
+	border-bottom-left-radius: 100%;
+	border-bottom-right-radius: 9999px;
+	border-top-right-radius: 9999px;
+	border-top-left-radius: 9999px;
+}
+.textdecoration{
+	text-decoration: none;
+}
+.mrb{
+	margin-bottom: 10px;
+}
+.mrt{
+	margin-top: 10px;
+}
+.borderb{
+    border-bottom: 1px solid #e6ecf0;
+}
+.ana{
+	width: 100%;
+	height: 100%;
+}
+.hesapbilgileri{
+    width: 280px;
+    height: 100%;
+    background-color: #fff;
+}
+.hesapbilgileri_ust_ic{
+	width: 250px;
+	height: 53px;
+	display: flex;
+	padding: 0 10px 0 10px;
+}
+.hesapbilgileri_ust_h2{
+	width: 205px;
+	display: flex;
+}
+.hesapbilgileri_ust_h2 h2{
+	margin: 0;
+	padding: 0;
+	font-size: 19px;
+	margin-top: 10px;
+}
+.hesapbilgileri_ust_icon{
+	width: 37px;
+	height: 37px;
+	display: flex;
+	margin-top: 5px;
+}
+.hesapbilgileri_ust_icon i{
+	padding: 11px 10px 10px 13px ;
+}
+.hesapbilgileri_alt{
+	height: 92.5%;
+	overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+.hesapbilgileri_alt_profil1{
+	padding: 10px 20px 0 20px;
+	display: flex;
+}
+.hesapbilgileri_alt_profil1 img{
+	width: 49px;
+	height: 49px;
+}
+.hesapbilgileri_alt_isim1{
+	padding: 10px 20px 10px 20px;
+}
+.hesapbilgileri_alt_isim11 span{
+	font-size: 15px;
+	font-weight: bold;
+	color: rgb(20, 23, 26);
+}
+.hesapbilgileri_alt_isim12 span{
+	font-size: 15px;
+	color: rgb(101, 119, 134);
+}
+.hesapbilgileri_alt_takiptakipci1{
+	padding: 10px 20px 10px 20px;
+	display: flex;
+}
+.hesapbilgileri_alt_takiptakipci11{
+	margin-right: 10px;
+}
+.hesapbilgileri_alt_takiptakipci1>div>a{
+	text-decoration: none;
+}
+.hesapbilgileri_alt_takiptakipci11 a b{
+	color: rgb(20, 23, 26);
+	font-size: 15px;
+	padding-right: 5px;
+}
+.hesapbilgileri_alt_takiptakipci11 a span{
+	font-size: 13px;
+	color: rgb(101, 119, 134);
+}
+.hesapbilgileri_alt_takiptakipci11 a:hover{
+	text-decoration: underline;
+}
+.hesapbilgileri_alt_proflist11{
+	padding: 15px 20px 15px 20px;
+}
+.hesapbilgileri_alt_proflist11 i{
+	color: rgb(101, 119, 134);
+	font-size: 15px;
+	margin-right: 10px;
+}
+.hesapbilgileri_alt_proflist11 span{
+    color: rgb(20, 23, 26);
+	font-size: 15px;	
+}

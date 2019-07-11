@@ -1,0 +1,156 @@
+body,html{
+	margin: 0;
+	height: 100%;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+button{
+	outline: none;
+}
+.ust{
+	width: 100%;
+	height: 40px;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #F2F2F2;
+
+}
+.ust_orta{
+	width: 590px;
+	height: 46px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ust_orta div{
+	display: inline-block;
+}
+.ust_orta_sol{
+	float: left;
+	width:200px;
+	height: 40px;
+}
+.ust_orta_sol img{
+	width: 23px;
+	height: 20px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+.sifresifir{
+	margin: 0;
+	padding: 0;
+	float: left;
+	line-height: 40px;
+	    font-size: 16px;
+    color: #66757f;
+
+}
+
+.dil{
+
+	width:112px;
+	height: 40px;
+	background-color: #fff; 
+	float: right;
+}
+.dil2{
+	width: 100%;
+	height: 18px;
+	background-color: #fff;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+.dil a{
+    color: inherit;
+    font-size: 13px;
+    text-decoration: none;
+	font-family: "Segoe UI",Arial,sans-serif;
+	    color: #6F7D86;
+}
+
+.ucgen{
+	margin-left: 5px;
+height:1px;
+border-top:4px solid #000;
+border-right:4px solid transparent;
+border-left:4px solid transparent;
+}
+
+.alt{
+	width: 100%;
+	background-color: #fff;
+	position: absolute;
+}
+
+.alt_orta{
+	width: 590px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alt_bir{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width:100%;
+	height: 32px;
+}
+.alt_bir h1{
+		    font-weight: bold;
+    color: #14171a;
+        font-size: 28px;
+}
+.alt_iki{
+	width:100%;
+		margin-top: 50px;
+}
+.alt_iki p{
+	font-size: 14px;
+    line-height: 18px;
+	color: #292f33;
+}
+.alt_uc{
+	width:100%;
+	margin-top: 10px;
+}
+.text input{
+	width: 300px;
+	line-height: 20px;
+    border: 1px solid #ccd6dd;
+    outline: 0;
+    font-size: 14px;
+    margin: 5px 10px 5px 0;
+    border-radius: 18px;
+    padding: 7px 15px 5px;
+}
+.text input:focus {
+    box-shadow: 0 0 0 1px #99cdf4;
+    border-color: #99cdf4;
+}
+.buton{
+	width: 78px;
+	height: 34px;
+	    margin-top: 25px;
+}
+.buton input{
+	margin: 0;
+    cursor: pointer;
+    background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 6px 16px;
+    text-align: center;
+    outline: 0;
+}
+.buton input:hover{
+	    background-color: #006dbf;
+    border-color: #006dbf;
+    color: #fff;
+}
+.buton input:active {
+    background-color: #006dbf;
+    border-color: #006dbf;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #1da1f2;
+    color: #fff;
+}

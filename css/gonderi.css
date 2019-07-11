@@ -1,0 +1,555 @@
+body,html{
+	margin: 0;
+	height: 100%;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+	background-color: #E6ECF0;
+}
+.hover:hover{
+		background-color: red;	transition: .1s;
+	background-color: #F5F8FA;
+}
+.hover2:hover div{
+	transition: .1s;
+	background-color: #E8F5FE;
+}
+.hover3:hover{
+	background-color: #DFEFFA;
+}
+.yuvarlak{
+	border-bottom-left-radius: 9999px;
+	border-bottom-right-radius: 9999px;
+	border-top-right-radius: 9999px;
+	border-top-left-radius: 9999px;
+}
+.gri{
+	color: rgb(101, 119, 134);
+}
+.mavi{
+	color: #1c94e0;
+}
+button{
+	outline: none;
+}
+.ana{
+	width: 100%;
+}
+
+.alt{
+	width: 980px;
+	margin: auto;
+	margin-top: 68px;
+	display: flex;
+	padding: 0 10px 0 10px;
+}
+
+.alt_sol{
+	width: 600px;
+	background-color: #fff;
+	margin-right: 20px;
+}
+.paylasim{
+	width: 580px;
+	padding: 15px 10px;
+	display: flex;
+}
+.yorum{
+	width: 580px;
+	padding: 15px 10px;
+}
+.paylasim_ust{
+	display: flex;
+}
+.paylasim_sol img{
+	width: 49px;
+	height: 49px;
+}
+.paylasim_sag{
+	width: 580px;
+	margin: 0 5px;
+	overflow:hidden;
+}
+.paylasim_sag_sag{
+	display: flex;
+}
+.paylasim_sag_bir{
+	width: 520px;
+	margin-left: 10px;
+}
+.paylasim_sag_bir a{
+	text-decoration: none;
+}
+.paylasim_sag_bir_sol{
+	float: left;
+}
+.paylasim_sag_bir_bir_ad{
+	color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+}
+.paylasim_sag_bir_bir_kadi{
+	color: rgb(101, 119, 134);
+	font-size: 15px;
+}
+.paylasim_sag_bir_bir:hover .paylasim_sag_bir_bir_ad{
+	text-decoration: underline;
+}
+.paylasim_sag_bir_bir_time{
+	color: rgb(101, 119, 134);
+	font-size: 15px;
+	cursor: pointer;
+}
+.paylasim_sag_bir_bir_time:hover{
+	text-decoration: underline;
+}
+.paylasim_sag_bir_bir_icon{
+	width: 27px;
+	height: 27px;
+	float: right;
+}
+.paylasim_sag_bir_bir1{
+	float: right;
+	display: flex;
+}
+.paylasim_sag_bir_bir11{
+	width: 27px;
+	height: 27px;
+	margin-right: 20px;
+}
+.paylasim_sag_bir_bir11 i{
+	padding: 6.4px;
+    color: rgb(101, 119, 134);
+}
+.paylasim_sag_bir_bir_icon i{
+	padding: 6.4px;
+    color: rgb(101, 119, 134);
+}
+.paylasim_sag_iki{
+	display: flex;
+
+}
+.paylasim_sag_uc{
+	display: flex;
+}
+.paylasim_sag_uc_yorum i{
+	font-size: 15px;
+	padding: 10px;
+}
+.paylasim_sag_uc_retweet i{
+	font-size: 15px;
+	padding: 10px;
+}
+.paylasim_sag_uc_like i{
+	font-size: 15px;
+	padding: 10px;
+}
+.paylasim_sag_iki_span{
+	font-size: 23px;
+    color: rgb(101, 119, 134);
+}
+.div_retweet{
+	width: 500px; 
+	border-radius: 14px;
+	border: 1px solid rgb(204, 214, 221);
+	padding: 5px;
+}
+.div_retweet:hover {
+	background-color: #EDF0F2;
+}
+.div_retweet_yok{
+	width: 550px; 
+	border-radius: 14px;
+	border: 1px solid rgb(204, 214, 221);
+	padding: 5px;
+}
+.div_retweet_yok1 span{
+		font-size: 15px;
+    color: rgb(101, 119, 134);
+}
+.div_retweet_yok1{
+	text-align: center;
+}
+.div_retweet_ust{
+	display: flex;
+}
+.div_retweet_ust1{
+	display: flex;
+}
+.div_retweet_ust1 img{
+	width: 20px;
+	height: 20px;
+	margin: 2px 0;
+}
+.div_retweet_ust2 span{
+	margin-left: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+}
+.div_retweet_ust3{
+	margin-left: 5px;
+}
+.div_retweet_ust3 span{
+	font-size: 15px;
+	color:  #657786;
+}
+.div_retweet_ust4 span{
+	font-size: 15px;
+	color:  #657786;
+}
+.div_retweet_alt span{
+	font-size: 15px;
+    color: rgb(101, 119, 134);
+}
+.nokta{
+	margin-top: 10px;
+	width: 2px;
+	height: 2px;
+	background-color: black;
+	margin-left: 5px;margin-right: 5px;
+}
+.retweet_acilir{
+	margin-top: -5px;
+	position: absolute;
+	display: none;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.22) 0px 6px 6px;
+}
+.retweet_acilir>a div{
+	padding: 15px;
+}
+.paylasim_sag_uc_retweet:hover .retweet_acilir{
+	display: block;
+}
+.paylasim_sag_uc>div{
+	margin-right: 20px;
+}
+.paylasim_sag_dort{
+	display: flex;
+	margin-top: 5px;
+    border-bottom: 1px solid #e6ecf0;
+
+}
+.yorum_yap{
+	padding: 20px;
+}
+.yorum_yap_ic{
+	padding: 10px 10px;
+	display: flex;
+	background-color: #F5F8FA;
+}
+.yorum_yap_ic textarea{
+	width: 560px;
+	font-size: 15px;
+	height: 90px;
+	resize:none;
+	border: none;
+	background-color: #F5F8FA;
+
+}
+.yorum_yap_ic textarea:focus{
+	outline: none;
+}
+.yorum_yap_buton{
+	float: right;
+}
+.yorum_yap_buton input{
+	height: 30px;
+	margin: 0;
+	background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: #fff;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 0px 15px;
+    outline: 0;
+    margin: 8.5px 0;
+}
+.yorum_sol img{
+	width: 49px;
+	height: 49px;
+}
+.yorum_sag{
+	width: 520px;
+	margin: 0 5px;
+}
+.yorum_sag_bir{
+	width: 520px;
+	height: 20px;
+}
+.yorum_sag_bir a{
+	text-decoration: none;
+}
+.yorum_sag_bir_sol{
+	height: 20px;
+	display: flex;
+	float: left;
+}
+.yorum_sag_bir_bir_ad{
+	color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+}
+.yorum_sag_bir_bir_kadi{
+	color: rgb(101, 119, 134);
+	font-size: 15px;
+}
+.yorum_sag_bir_bir:hover .paylasim_sag_bir_bir_ad{
+	text-decoration: underline;
+}
+.yorum_sag_bir_bir_time{
+	color: rgb(101, 119, 134);
+	font-size: 15px;
+	cursor: pointer;
+}
+.yorum_sag_bir_bir_time:hover{
+	text-decoration: underline;
+}
+.yorum_sag_bir_bir_icon{
+	width: 27px;
+	height: 27px;
+	float: right;
+
+}
+.yorum_sag_bir_bir_icon i{
+	padding: 4.5px;
+    color: rgb(101, 119, 134);
+}
+.yorum_sag_iki{
+	display: flex;
+
+}
+.yorum_sag_uc{
+	display: flex;
+}
+.yorum_sag_uc>div{
+	margin-right: 20px;
+}
+.yorum_sag_uc_yorum i{
+	font-size: 15px;
+	padding: 10px;
+}
+.yorum_sag_uc_retweet i{
+	font-size: 15px;
+	padding: 10px;
+}
+.yorum_sag_uc_like i{
+	font-size: 15px;
+	padding: 10px;
+}
+.yorum_sag_iki_span{
+	font-size: 15px;
+    color: rgb(101, 119, 134);
+}
+
+.alt_sag_bir{
+	width: 360px;
+	background-color: #fff;
+
+}
+.alt_sag_bir>a{
+	text-decoration: none;
+}
+.alt_sag_bir_bir{
+    border-bottom: 1px solid #e6ecf0;
+	padding: 10px 10px 10px 10px;
+}
+.alt_sag_bir_bir h3{
+	margin: 0;
+	padding: 0;
+	font-size: 19px;
+    font-weight: bold;
+    color: #14171a;
+    display: inline;
+    line-height: 22px;
+}
+.alt_sag_bir_iki{
+    border-bottom: 1px solid #e6ecf0;
+}
+.alt_sag_bir_iki_profil{
+	display: flex;
+}
+.alt_sag_bir_iki img{
+	width: 41.25px;
+	height: 41.25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.resim_sag{
+	padding: 10px 10px 10px 10px;
+	width: 300px;
+}
+.resim_sag_bir{
+	float: left;
+}
+.resim_sag_buton{
+	float: right;
+}
+.resim_sag_bir_bir span{
+	font-size: 15px;
+    color: black;
+	line-height: 16px;
+	cursor: pointer;
+    font-weight: bold;
+}
+.resim_sag_bir_bir:hover span{
+	text-decoration: underline;
+}
+.span_alti span{
+    color: rgb(101, 119, 134);
+	line-height: 16px;
+	font-size: 15px;
+}
+.resim_sag_buton1{
+	width: 89px;
+	height: 30px;
+	border-color: #1DA1F2;
+    color: #1DA1F2;
+    background-color: #fff;
+    border: 1px solid #1da1f2;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 4px 12px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.resim_sag_buton1:hover{
+	background-color: #DFEFFA;
+}
+.dfgoster{
+	padding: 10px 10px 10px 10px;
+}
+.dfgoster span{
+	color: rgb(27, 149, 224);
+	font-size: 14px;
+}
+
+.gundemler{
+	width: 360px;
+	background-color: #fff; 	
+	margin-top: 10px;
+}
+.gundemler_ust{
+	display: flex;
+    border-bottom: 1px solid #e6ecf0;
+
+}
+.icgundemler p{
+	padding: 0;
+	margin: 0;
+	font-size: 19px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 10px 10px 10px 10px;
+}
+.gundemler_icon{
+	width: 37px;
+	height: 37px;
+	margin-top: 4px;
+	margin-left: 40px;
+	cursor: pointer;
+}
+.gundemler_icon i{
+	font-size: 22px;
+	margin-top: 8px;
+	margin-left: 7px;
+	color: rgba(29,161,242,1.00);
+}
+.gundemler_icon:hover{
+	background-color: red;	transition: .1s;
+	background-color: #E8F5FE;
+}
+.gundemler_alt>a{
+	text-decoration: none;
+}
+.gundemler_alt_bir{
+
+    border-bottom: 1px solid #e6ecf0;
+}
+.gundemler_alt_bir_bir{
+	padding: 10px 10px 0 10px;
+}
+.gundemler_alt_bir_bir span{
+    color: rgb(101, 119, 134);
+    font-size: 14px;
+}
+.gundemler_alt_bir_iki{
+	padding: 0 10px 0 10px;
+}
+.gundemler_alt_bir_iki span{
+	font-weight: bold;
+	font-size: 15px;
+	color: rgb(20, 23, 26);
+}
+.gundemler_alt_bir_uc{
+	padding: 0 10px 10px 10px;
+}
+.gundemler_alt_bir_uc span{
+	font-size: 15px;
+	color: rgb(101, 119, 134);
+}
+.domain{
+	margin-top: 20px; 	
+}
+.liste_sag ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	line-height: 18px;
+	padding: 10px 10px 0 10px;
+}
+.liste_sag ul li{
+    display: inline;
+    font-size: 12px;
+    color: #657786;
+    margin-right: 8px;
+
+}
+.liste_sag ul li a{ 
+	text-decoration: none;
+    color: #657786;
+}
+.liste_sag ul li a:hover{
+	text-decoration: underline;
+}
+.domain_alt{
+	display: flex;
+}
+.acilir{
+	background-color: #fff;
+	position: absolute;	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.22) 0px 6px 6px;
+	margin-top: -190px;
+	display: none;
+}
+.acilir1 span{
+	font-size: 15px;
+	color: rgb(20, 23, 26);
+}
+.acilir1{
+	padding: 15px 15px 15px 15px ;
+}
+.daha_fazla span{
+    font-size: 13px;
+	color: rgb(101, 119, 134);
+	padding: 0 10px 10px 10px;
+}
+.daha_fazla span i{
+	margin-left: 3px;
+	font-size: 10px;
+	color: rgb(101, 119, 134);
+}
+.daha_fazla{
+	cursor: pointer;
+}
+.t2019 span{
+    font-size: 13px;
+	color: rgb(101, 119, 134);
+	padding: 0 10px 10px 0;
+}
+.daha_fazla_span:hover .acilir{
+	display: block !important;
+}

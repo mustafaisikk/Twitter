@@ -1,0 +1,228 @@
+body,html{
+	margin: 0;
+	height: 100%;
+    font-family: "Segoe UI",Arial,sans-serif;
+	background-color: #E6ECF0;
+}
+
+.hover:hover{
+		background-color: red;	transition: .1s;
+	background-color: #F5F8FA;
+}
+.hover2:hover div{
+	background-color: red;	transition: .1s;
+	background-color: #E8F5FE;
+}
+.yuvarlak{
+	border-bottom-left-radius: 9999px;
+	border-bottom-right-radius: 9999px;
+	border-top-right-radius: 9999px;
+	border-top-left-radius: 9999px;
+}
+button{
+	outline: none;
+}
+.gundemler_sayfa {
+	width: 90px;
+	height: 41px;
+	background-color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #1c94e0;
+}
+.gundemler_sayfa_ic{
+	width: 38.75px;
+    margin: auto;
+}
+.gundemler_sayfa_ic i{
+	font-size: 26px;
+	color: #1DA1F2;
+	padding: 8px 8px 8px 8px;
+}
+.ana{
+	width: 100%;
+}
+
+.alt{
+	width: 1000px;
+	margin: auto;
+	margin-top: 68px;
+	display: flex;
+}
+
+.alt_sol{
+	width: 700px;
+	margin-right: 10px;
+}
+.alt_sag_ust{
+}
+.alt_sag_bir{
+	width: 360px;
+	background-color: #fff;
+}
+.alt_sag_bir>a{
+	text-decoration: none;
+}
+.alt_sag_bir_bir{
+    border-bottom: 1px solid #e6ecf0;
+	padding: 10px 10px 10px 10px;
+}
+.alt_sag_bir_bir h3{
+	margin: 0;
+	padding: 0;
+	font-size: 19px;
+    font-weight: bold;
+    color: #14171a;
+    display: inline;
+    line-height: 22px;
+}
+.alt_sag_bir_iki{
+    border-bottom: 1px solid #e6ecf0;
+}
+.alt_sag_bir_iki_profil{
+	display: flex;
+}
+.alt_sag_bir_iki img{
+	width: 41.25px;
+	height: 41.25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.resim_sag{
+	padding: 10px 10px 10px 10px;
+	width: 300px;
+}
+.resim_sag_bir{
+	float: left;
+}
+.resim_sag_buton{
+	float: right;
+}
+.resim_sag_bir_bir span{
+	font-size: 15px;
+    color: black;
+	line-height: 16px;
+	cursor: pointer;
+    font-weight: bold;
+}
+.resim_sag_bir_bir:hover span{
+	text-decoration: underline;
+}
+.span_alti span{
+     color: rgb(101, 119, 134);
+	line-height: 16px;
+	    font-size: 15px;
+}
+.resim_sag_buton1{
+	width: 89px;
+	height: 30px;
+	border-color: #1DA1F2;
+    color: #1DA1F2;
+    background-color: #fff;
+    border: 1px solid #1da1f2;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 4px 12px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.resim_sag_buton1:hover{
+	background-color: #DFEFFA;
+}
+.dfgoster{
+	padding: 10px 10px 10px 10px;
+}
+.dfgoster span{
+	color: rgb(27, 149, 224);
+	font-size: 14px;
+}
+
+.gundemler{
+	background-color: #fff; 	
+}
+.gundemler_ust{
+	display: flex;
+    border-bottom: 1px solid #e6ecf0;
+
+}
+.icgundemler p{
+	padding: 0;
+	margin: 0;
+	font-size: 19px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 10px 10px 10px 10px;
+}
+.gundemler_alt>a{
+	text-decoration: none;
+}
+.gundemler_alt_bir{
+    border-bottom: 1px solid #e6ecf0;
+}
+.gundemler_alt_bir_bir{
+	padding: 10px 10px 0 10px;
+}
+.gundemler_alt_bir_bir span{
+    color: rgb(101, 119, 134);
+    font-size: 14px;
+}
+.gundemler_alt_bir_iki{
+	padding: 0 10px 0 10px;
+}
+.gundemler_alt_bir_iki span{
+	font-weight: bold;
+	font-size: 15px;
+	color: rgb(20, 23, 26);
+}
+.gundemler_alt_bir_uc{
+	padding: 0 10px 10px 10px;
+}
+.gundemler_alt_bir_uc span{
+	font-size: 15px;
+	color: rgb(101, 119, 134);
+}
+.domain{
+	margin-top: 20px; 	
+}
+.liste_sag ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	line-height: 18px;
+	padding: 10px 10px 0 10px;
+}
+.liste_sag ul li{
+    display: inline;
+    font-size: 12px;
+    color: #657786;
+    margin-right: 8px;
+
+}
+.liste_sag ul li a{ 
+	text-decoration: none;
+    color: #657786;
+}
+.liste_sag ul li a:hover{
+	text-decoration: underline;
+}
+.domain_alt{
+	display: flex;
+}
+.daha_fazla span{
+    font-size: 13px;
+	color: rgb(101, 119, 134);
+	padding: 0 10px 10px 10px;
+}
+.daha_fazla span i{
+	margin-left: 3px;
+	font-size: 10px;
+	color: rgb(101, 119, 134);
+
+}
+.t2019 span{
+	    font-size: 13px;
+	color: rgb(101, 119, 134);
+	padding: 0 10px 10px 0;
+}

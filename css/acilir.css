@@ -1,0 +1,282 @@
+.ust{
+	width: 100%;
+	height: 53px;
+	background-color: #fff;
+	border-bottom: 1px solid #989898;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+.ust a{
+	text-decoration: none;
+}
+.orta{
+	width: 980px;
+	height: 53px;
+	margin: auto;
+	display: flex;
+	padding: 0 10px 0 10px;
+}
+
+.anasayfa {
+	width: 90px;
+	height: 43px;
+	background-color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.anasayfa_ic{
+	width: 38.75px;
+    margin: auto;
+}
+.anasayfa_ic i{
+	font-size: 26px;
+	color: rgb(101, 119, 134);
+	padding: 8px 8px 8px 8px;
+}
+.anasayfa:hover i{
+	color: #1DA1F2;
+}
+.gundemler_sayfa {
+	width: 90px;
+	height: 43px;
+	background-color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.gundemler_sayfa_ic{
+	width: 38.75px;
+    margin: auto;
+}
+.gundemler_sayfa_ic i{
+	font-size: 26px;
+	color: rgb(101, 119, 134);
+	padding: 8px 8px 8px 7px;
+}
+.gundemler_sayfa:hover i{
+	color: #1DA1F2;
+}
+
+.bildirimler {
+	width: 90px;
+	height: 43px;
+	background-color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.bildirimler_ic{
+	width: 38.75px;
+    margin: auto;
+}
+.bildirimler_ic i{
+	font-size: 26px;
+	color: rgb(101, 119, 134);
+	padding: 8px 8px 8px 6px;
+}
+.bildirimler:hover i{
+	color: #1DA1F2;
+}
+.mesajlar {
+	width: 90px;
+	height: 43px;
+	background-color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.mesajlar_ic{
+	width: 42px;
+    margin: auto;
+}
+.mesajlar_ic i{
+	font-size: 26px;
+	color: rgb(101, 119, 134);
+	padding: 8px 8px 8px 9px;
+}
+.mesajlar:hover i{
+	color: #1DA1F2;
+}
+.arama{
+	margin-left: 15px;
+	width: 430px;
+	height: 46px;
+}
+.kutu{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	width: 420px;
+	background-color:#F5F8FA;
+	border-radius: 100px;
+	border: 1px solid #CCD6DD;
+}
+.kutu form{
+	display: flex;
+}
+.akutu{
+	padding: 0;
+	width: 390px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 12px;
+	padding-right: 5px;
+	background: transparent;
+ 	outline:none; 
+ 	border: none;
+}
+
+.abuton{
+	width: 18px;
+	height: 18px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 8px;
+ 	outline:none;
+ 	border:none;
+}
+
+.profil{
+	height: 53px;
+}
+.profil_ic{
+	height: 33px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	cursor: pointer;
+}
+.profil_ic:hover{
+	background-color: #E8F5FE;
+}
+.profil img{
+	float: left;
+	width: 33px;
+	height: 33px;
+}
+.profil_ic span{
+	font-size: 15px;
+	font-weight: bold;
+	height: 21px;
+	margin:6px 5px 6px 5px;
+	color: #000;
+	overflow: hidden;
+}
+.profil_ic i{
+	margin-top: 10px;
+	color: #000;
+}
+.textdecoration{
+	text-decoration: none;
+}
+.mrb{
+	margin-bottom: 10px;
+}
+.mrt{
+	margin-top: 10px;
+}
+.borderb{
+    border-bottom: 1px solid #e6ecf0;
+}
+.hesapbilgileri{
+    position: absolute;
+    width: 280px;
+    height: 92.5%; 
+    right: 0; 
+	top:0;
+	display:none;
+    background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.22) 0px 6px 6px;
+	position: fixed;
+}
+.profil:hover .menu .hesapbilgileri
+{
+	display:block;
+	top: 50px;
+	right: auto;
+}
+.hesapbilgileri_ust_ic{
+	width: 250px;
+		height: 53px;
+
+	display: flex;
+	padding: 0 10px 0 10px;
+}
+.hesapbilgileri_ust_h2{
+	width: 205px;
+	display: flex;
+}
+.hesapbilgileri_ust_h2 h2{
+	margin: 0;
+	padding: 0;
+	font-size: 19px;
+	margin-top: 10px;
+}
+.hesapbilgileri_ust_icon{
+	width: 37px;
+	height: 37px;
+	display: flex;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.hesapbilgileri_ust_icon i{
+	padding: 11px 10px 10px 13px ;
+	color: #1da1f2;
+}
+.hesapbilgileri_alt{
+	height: 90%;
+	overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+.hesapbilgileri_alt_profil1{
+	padding: 10px 20px 0 20px;
+	display: flex;
+}
+.hesapbilgileri_alt_profil1 img{
+	width: 49px;
+	height: 49px;
+}
+.hesapbilgileri_alt_isim1{
+	padding: 10px 20px 10px 20px;
+}
+.hesapbilgileri_alt_isim11 span{
+	font-size: 15px;
+	font-weight: bold;
+	color: rgb(20, 23, 26);
+}
+.hesapbilgileri_alt_isim12 span{
+	font-size: 15px;
+	color: rgb(101, 119, 134);
+}
+.hesapbilgileri_alt_takiptakipci1{
+	padding: 10px 20px 10px 20px;
+	display: flex;
+}
+.hesapbilgileri_alt_takiptakipci11{
+	margin-right: 10px;
+}
+.hesapbilgileri_alt_takiptakipci1>div>a{
+	text-decoration: none;
+}
+.hesapbilgileri_alt_takiptakipci11 a b{
+	color: rgb(20, 23, 26);
+	font-size: 15px;
+	padding-right: 5px;
+}
+.hesapbilgileri_alt_takiptakipci11 a span{
+	font-size: 13px;
+	    color: rgb(101, 119, 134);
+}
+.hesapbilgileri_alt_takiptakipci11 a:hover{
+	text-decoration: underline;
+}
+.hesapbilgileri_alt_proflist11{
+	padding: 15px 20px 15px 20px;
+}
+.hesapbilgileri_alt_proflist11 i{
+	color: rgb(101, 119, 134);
+	font-size: 15px;
+	margin-right: 10px;
+}
+.hesapbilgileri_alt_proflist11 span{
+    color: rgb(20, 23, 26);
+	font-size: 15px;	
+} 
