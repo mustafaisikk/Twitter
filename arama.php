@@ -243,7 +243,7 @@
 											<p>Gönderiler</p>
 										</div>
 									<?php		
-										$gonderiler = mysqli_query($baglanti,"select * from paylasim P inner join uyeler U on U.id = P.kisi_id and p.icerik LIKE '%$aranacak%' order by P.tarih desc");
+										$gonderiler = mysqli_query($baglanti,"select * from paylasim P inner join uyeler U on U.id = P.kisi_id and P.icerik LIKE '%$aranacak%' order by P.tarih desc");
 
 										while($yaz = mysqli_fetch_assoc($gonderiler)){
 											$paylasim_id=$yaz['paylasim_id'];
